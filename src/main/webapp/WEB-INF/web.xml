@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ControladorUsuario</servlet-name>
+  	<display-name>ControladorUsuario</display-name>
+  	<description></description>
+  	<servlet-class>controladores.ControladorUsuario</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ControladorProducto</servlet-name>
+  	<display-name>ControladorProducto</display-name>
+  	<description></description>
+  	<servlet-class>controladores.ControladorProducto</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ControladorCategoria</servlet-name>
+  	<display-name>ControladorCategoria</display-name>
+  	<description></description>
+  	<servlet-class>controladores.ControladorCategoria</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ControladorCarrito</servlet-name>
+  	<display-name>ControladorCarrito</display-name>
+  	<description></description>
+  	<servlet-class>controladores.ControladorCarrito</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ControladorPedido</servlet-name>
+  	<display-name>ControladorPedido</display-name>
+  	<description></description>
+  	<servlet-class>controladores.ControladorPedido</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ControladorDetallePedido</servlet-name>
+  	<display-name>ControladorDetallePedido</display-name>
+  	<description></description>
+  	<servlet-class>controladores.ControladorDetallePedido</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ControladorUsuario</servlet-name>
+  	<url-pattern>/ControladorUsuario</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControladorProducto</servlet-name>
+  	<url-pattern>/ControladorProducto</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControladorCategoria</servlet-name>
+  	<url-pattern>/ControladorCategoria</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControladorCarrito</servlet-name>
+  	<url-pattern>/ControladorCarrito</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControladorPedido</servlet-name>
+  	<url-pattern>/ControladorPedido</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControladorDetallePedido</servlet-name>
+  	<url-pattern>/ControladorDetallePedido</url-pattern>
+  </servlet-mapping>
+</web-app>
